@@ -1,0 +1,20 @@
+{
+  "services": [
+    {
+      "identity": "example",
+      "cmd": "node node_modules/@guestyci/hydra-nest/dist/cli run example",
+      "description": "example",
+      "staging": {},
+      "production": {}
+    }
+  ],
+  "workers": [],
+  "kConsumers": [],
+  "schedulers": {
+    "schedules": [],
+    "task": {
+      "production": {},
+      "staging": {}
+    }
+  }
+}

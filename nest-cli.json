@@ -1,0 +1,17 @@
+{
+  "collection": "@guestyci/hydra-schematics",
+  "sourceRoot": "src",
+  "monorepo": true,
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "plugins": ["@nestjs/swagger/plugin"]
+  },
+  "projects": {
+    "example": {
+      "type": "application",
+      "root": "exec/httpService/example",
+      "entryFile": "index",
+      "sourceRoot": "exec/httpService/example"
+    }
+  }
+}

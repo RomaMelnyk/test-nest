@@ -1,0 +1,6 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "all": true,
+  "include": ["business/**/*.ts", "exec/**/*.ts"],
+  "exclude": ["**/*.{spec,test,e2e,e2e-spec}.ts"]
+}

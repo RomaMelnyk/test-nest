@@ -1,0 +1,5 @@
+{
+  "extension": ["ts"],
+  "spec": ["exec/**/*.{spec,test,e2e,e2e-spec}.ts"],
+  "require": ["ts-node/register", "tsconfig-paths/register", "./mocha_setup.ts"]
+}
